@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --grisoscuro:rgba(141, 141, 141, 0.5);
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --moradoscuro:#321c3b;
+    --blanco: #fff;
+    --azulnube:rgba(206, 232, 234, 0.9);
+    --azulverde:rgb(205, 246, 243);
+    --azulblanco:#e2f9fd;
+    --azulbotonclaro:rgb(102, 191, 214);
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    --width:300px;
+    --padding: 10px;
+    --Letra-small-caps: small-caps;
+    --width-collapsed: 50px;
+    --background-image:url('../img/fondo.png');
+}
+
+body {
+    top: 200%;
+    background: var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    color: var(--blanco);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+thead, tbody{
+    color: var(--blanco);
+}
+
